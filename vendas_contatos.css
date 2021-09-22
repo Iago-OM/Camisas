@@ -1,0 +1,247 @@
+body{
+  
+  width: 1250px;
+}
+/** MENU */
+
+.head{
+  margin-bottom: 20px;
+  display: inline-flex;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.479);
+  width: 100%;
+  padding: 1px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+
+}
+.section-menu{
+  background-color: white;
+  
+ 
+}
+.section-menu div{
+  display: inline-block;
+
+}
+#Logo img{
+  height: 100px;
+ width: 120px;
+}
+
+.galeria{
+  
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  width: 150px;
+  position: relative;
+  top: 5px;
+}
+.galeria li{
+  margin-top: 5px;
+  text-align: left;
+  font-size: 12px;
+  
+  
+}
+.ul-galeria li {
+  margin-top: 5px;
+}
+.ul-galeria {
+
+  padding: 7px;
+ 
+}
+#li-inicio, #li-contact{
+ position: relative;
+ bottom: 15px;
+}
+#Menu li{
+  display: inline-block;
+  margin-right: 130px;
+  letter-spacing: 3px;
+  
+ 
+}
+#Menu a{
+  text-decoration: none;
+  color: black;
+  letter-spacing: 3px;
+}
+#Menu li ul{
+  height: 0;
+  overflow: hidden;
+  transition: height .5s;
+}
+#Menu a:hover{
+  color: #bbb;
+ }
+#Menu li:hover{
+ color: #bbb;
+}
+#Menu  li:hover ul{
+  height: 50px;
+}
+.section-menu img{
+height: 120px;
+width: 140px;
+margin-left: 150px;
+}
+
+/** MAIN */
+
+
+main{
+   font-family: sans-serif;
+   text-transform: uppercase;
+  
+  
+}
+/** SECTION REDE SOCIAL*/
+.section-rede-social{
+
+  height: 400px;
+
+}
+.section-rede-social div{
+  display: inline-block;
+  background-color: orange;
+  width: 250px;
+  height: 300px;
+  text-align: center;
+  margin-right: 90px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+#contato-face{
+   position: relative;
+   top: 20px;
+background-color: #31b1f0;
+}
+
+#contato-face img{
+  height: 160px;
+  width: 160px;
+  position: relative;
+  top: 50px;
+
+}
+#contato-insta{
+  position: relative;
+top: 15px;
+  background-color: rgb(245, 88, 177);
+ }
+ #contato-insta img{
+   width: 150px;
+   height: 150px;
+   position: relative;
+   top: 50px;
+ }
+ #contato-mercado-livre{
+  position: relative;
+  top: 20px;
+  background-color: #f4e858;
+ }
+ #contato-mercado-livre img{
+  height: 150px;
+  width: 250px;
+  position: relative;
+  top: 50px;
+ }
+ #contato-mercado-livre:hover, #contato-insta:hover, #contato-face:hover{
+  opacity: 60%;
+ }
+
+/** SECTION FORMULARIO*/
+
+.forms{
+  
+  height: 500px;
+}
+.forms fieldset{
+  height: 400px;
+}
+.field label, input{
+  display: block;
+  margin-top: 10px;
+}
+
+.field{
+  border: none;
+  margin-left: 420px;
+  
+}
+
+input[type="email"], input[type="tel"]{
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 25px;
+  height: 25px;
+ 
+}
+input[type="email"]:hover, input[type="tel"]:hover{
+  background-color: #aaa;
+
+}
+
+
+textarea[name="msg"]{
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+textarea[name="msg"]:hover{
+  background-color: #aaa;
+
+}
+label[for="msg"]{
+  margin-bottom: 10px;
+}
+ 
+input[type="submit"]{
+  border-radius: 5px;
+  padding: 10px;
+  width: 80px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.507);
+}
+input[type="submit"]:hover{
+background-color: #aaa;
+}
+
+
+h3{
+  font-size: 50px;
+  margin-bottom: 50px;
+ text-align: center;
+}
+p{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rodape{
+  margin-top: 100px;
+  height: 15px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+	border-top: 1px solid rgba(0, 0, 0, 0.472) ;
+  line-height: 80px;
+
+}

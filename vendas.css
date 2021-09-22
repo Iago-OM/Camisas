@@ -1,0 +1,254 @@
+
+.Main{
+ 
+ 
+  width: 1264px;
+  
+}
+
+
+
+/**   header Img logo*/
+
+
+#Logo img{
+height: 100px;
+width: 120px;
+}
+
+/**   header Menu*/
+.head{
+  margin-bottom: 20px;
+  display: inline-flex;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.479);
+  width: 100%;
+  padding: 1px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+
+}
+.section-menu{
+  background-color: white;
+  
+ 
+}
+.section-menu div{
+  display: inline-block;
+
+}
+
+#logo{
+  margin-left: 130px;
+  margin-right: 40px;
+ 
+}
+.galeria{
+  
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  width: 150px;
+  position: relative;
+  top: 5px;
+}
+.galeria li{
+  margin-top: 5px;
+  text-align: left;
+  font-size: 12px;
+  
+  
+}
+.ul-galeria li {
+  margin-top: 5px;
+}
+.ul-galeria {
+
+  padding: 7px;
+ 
+}
+#li-inicio, #li-contact{
+ position: relative;
+ bottom: 15px;
+}
+#Menu li{
+  display: inline-block;
+  margin-right: 130px;
+  letter-spacing: 3px;
+  
+ 
+}
+#Menu a{
+  text-decoration: none;
+  color: black;
+  letter-spacing: 3px;
+}
+#Menu li ul{
+  height: 0;
+  overflow: hidden;
+  transition: height .5s;
+}
+#Menu a:hover{
+  color: #bbb;
+ }
+#Menu li:hover{
+ color: #bbb;
+}
+#Menu  li:hover ul{
+  height: 50px;
+}
+
+/** Main section divulgção*/
+
+.Divulgação{
+ 
+  height: 300px;
+  width: 1000px;
+  text-align: center;
+  margin-left: 10%;
+  
+}
+.Divulgação img{
+  height: 300px;
+  width: 700px;
+  border-radius: 3px;
+
+}
+
+
+/** section conteneir*/
+.Cont{
+  display: inline-flex;
+  height: 450px;
+  width: 1000px;
+  margin-left: 10%;
+  
+ margin-top: 50px;
+}
+.cont div{
+  display: inline-flex;
+}
+.Marcas img{
+  display: inline;
+  height: 50px; width: 50px;
+  margin-right: 50px;
+}
+.Marcas{
+ 
+  padding: 10px;
+  height: 65px;
+  width:600px;
+  
+}
+#div-promo img{
+  position: relative;
+  top: 230px;
+  right: 200px;
+}
+
+#div-promo img, #div-promo2 img{
+width: 200px;
+height: 300px;
+border-radius: 3px;
+border: none;
+
+
+}
+#div-promo{
+  border-radius: 5px;
+  background-image: url(../Camisas/imagens/camisas_img1.jpg);
+
+width:300px;
+height: 300px;
+margin-right: 150px;
+margin-top: 120px;
+}
+#div-promo:hover{
+  background-image: url(imagens/camisas_img3.jpg);
+  opacity: 70%;
+
+}
+#div-promo a:hover{
+color: white;
+}
+#div-promo2{
+border-radius:5px ;
+background-image: url(imagens/camisas_img3.jpg);
+
+width: 200px;
+height: 300px;
+margin-right: 150px;
+margin-top: 120px;
+}
+
+.Marcas{
+  position: relative;
+  left: 200px;
+}
+
+#div-promo{
+
+  position: relative;
+  right: 450px;
+}
+#div-promo2{
+position: relative;
+right: 350px;
+}
+#div-promo a{
+  width: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-decoration: none;
+  color: rgb(255, 249, 249);
+  position: relative;
+  top: 20px;
+}
+#div-promo2 a{
+  width: 200px;
+  line-height: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: 20px;
+  
+}
+#div-promo2:hover{
+  background-image: url(imagens/camisas_img4.jpg);
+  opacity: 70%;
+
+}
+#div-promo2 a:hover{
+color: rgb(163, 156, 156);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rodape{
+  height: 15px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+	border-top: 1px solid rgba(0, 0, 0, 0.472) ;
+  line-height: 80px;
+
+}
